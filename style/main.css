@@ -37,15 +37,5 @@ body{
   box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
 }
 
-.copyright {
- width: 740px; /* Ширина макета без полей */
- padding: 0 10px 10px; /* Поля */
- margin: auto; /* Выравнивание по центру */
- color: #526118; /* Цвет текста */
- 
-}
-.copyright p { 
- margin: 0 0 5px 170px; /* Отступы текста */ 
-}
-        
+
         
