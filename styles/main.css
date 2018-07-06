@@ -1,0 +1,182 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	height: 100vh;
+}
+
+html{
+	height: 100%;
+}
+
+.head{
+	height: 100vh;
+	background-color: #3F3F3FFF;
+}
+
+.photo_me{
+	margin-top: 50px;
+}
+.name{
+    font-family: Arial;
+	font-size: 40;
+	color: #FFFFFCFF;
+	text-align: center;
+}
+
+.artc_games{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background:#4C4C4CFF; 
+}
+
+.text_me{
+	margin-top: 70px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF;
+}
+
+.game_text{
+	margin-top: 100px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF
+}
+
+.games_row{
+	margin-top: 250px;
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game{
+	margin: auto;
+	width: 16.6%;
+	height: 100%;
+	
+	
+}
+
+.gameico{
+	margin: auto;
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: grayscale(1);
+	transition: .3s;
+}
+
+.gameico:hover{
+	filter: grayscale(0);
+	transition: .3s;
+}
+
+.video_main{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #3F3F3FFF; 
+}
+
+.video_text{
+	margin-top: 80px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF
+}
+
+.video{
+	margin-top: 50px;
+	max-width: 100%
+}
+
+.why{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #4C4C4CFF; 
+	flex-grow: 1;
+}
+
+.title{
+	margin-top: 80px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF
+}
+
+.why_text{
+	margin-top: 100px;
+	font-family: Tahoma;
+	font-size: 40;
+	color: #FFFFFCFF
+}
+
+.foot {
+	width: 100%;
+	height: 200px;
+	background: #3F3F3FFF;
+
+}
+
+
+.social_row {
+	margin-top: 250px;
+	width: 100%;
+	height: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.social{
+	margin: auto;
+	width: 16.6%;
+	height: 100%;
+
+}
+
+.social_ico{
+	margin: 50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+footer{
+	bottom: 0;
+}
+
+
+@media screen and (max-width: 1500px) {
+.game{
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
