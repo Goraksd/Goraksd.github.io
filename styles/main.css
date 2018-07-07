@@ -104,7 +104,12 @@ html{
 
 .video{
 	margin-top: 50px;
-	max-width: 100%
+	max-width: 100%;
+}
+
+iframe{
+	width: 1000;
+	height: 600;
 }
 
 .why{
@@ -190,10 +195,11 @@ footer{
 
   .game_text{
   	font-size: 18;
+  	margin-top: 50px;
   }
 
   .video_text{
-  	margin-top:600px;
+	margin-top: 50px;
   	font-size: 18;
   }
 
@@ -209,10 +215,11 @@ footer{
 
   .games_row{
 	margin-top: 250px;
-	width: 100%;
+	width: 30%;
 	height: 250px;
 	justify-content: center;
 	align-items: center;
+	display: table-header-group;
 }
 
   .game{
@@ -223,7 +230,8 @@ footer{
 }
  
  .gameico{ 
-	margin: auto;
+	margin-left: 80px;
+	margin-top: 10px;
 	width: 60px;
 	height: 60px;
 	border-radius: 100%;
@@ -233,3 +241,69 @@ footer{
 	background-repeat: no-repeat;
 }
 	
+iframe {
+	width: 300px;
+	height: 250px;
+}
+
+.why{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #4C4C4CFF; 
+	flex-grow: 1;
+}
+
+.title{
+	margin-top: 10px;
+	font-family: Tahoma;
+	font-size: 18;
+	color: #FFFFFCFF
+}
+
+.why_text{
+	margin-top: 20px;
+	font-family: Tahoma;
+	font-size: 18;
+	color: #FFFFFCFF
+}
+
+.foot {
+	width: 100%;
+	height: 100px;
+	background: #3F3F3FFF;
+
+}
+
+
+.social_row {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.social{
+	margin: auto;
+	width: 37%;
+	height: 100%;
+
+}
+
+.social_ico{
+
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
