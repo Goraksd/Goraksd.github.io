@@ -177,7 +177,7 @@ footer{
 	bottom: 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .name{
   	font-size: 25;
   }
@@ -198,20 +198,6 @@ footer{
   	margin-top: 50px;
   }
 
-  .video_text{
-	margin-top: 50px;
-  	font-size: 18;
-  }
-
-  .title{
-  	margin-top:600px;
-  	font-size: 18;
-  }
-
-  .why_text{
-  	margin-top:600px;
-  	font-size: 18;
-  }
 
   .games_row{
 	margin-top: 250px;
@@ -240,6 +226,22 @@ footer{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+  .video_text{
+	margin-top: 50px;
+  	font-size: 18;
+  }
+
+  .title{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+  .why_text{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
 	
 iframe {
 	width: 300px;
@@ -273,14 +275,14 @@ iframe {
 
 .foot {
 	width: 100%;
-	height: 100px;
+	height: 150px;
 	background: #3F3F3FFF;
 
 }
 
 
 .social_row {
-	width: 100%;
+	width: 90%;
 	height: 50px;
 	display: flex;
 	justify-content: center;
@@ -295,12 +297,155 @@ iframe {
 }
 
 .social_ico{
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	border-radius: 100%;
 	background-color: #3F3F3FFF;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	float: center;
+}
+}
+
+@media screen and (min-width: 351px) and (max-width: 400px){
+
+.name{
+  	font-size: 25;
+  }
+
+.photo_me{
+	margin-left: 17px;
+	margin-top: 1px;
+	width: 300px;
+	height: 400px;
+}
+
+  .text_me{
+  	font-size: 18;
+  	margin-top: 45px;
+  }
+
+  .game_text{
+  	font-size: 20;
+  	margin-top: 50px;
+  }
+
+  
+  .games_row{
+	margin-top: 250px;
+	width: 30%;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	display: table-header-group;
+}
+
+  .game{
+  	width: 30%;
+	margin: auto;
+	width: 30%;
+	height: 100%;
+}
+ 
+ .gameico{ 
+	margin-left: 80px;
+	margin-top: 10px;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.video_text{
+	margin-top: 50px;
+  	font-size: 18;
+  }
+
+  .title{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+  .why_text{
+  	margin-top:600px;
+  	font-size: 18;
+  }
+
+	
+iframe {
+	width: 300px;
+	height: 250px;
+}
+
+.why{
+	padding:0.2;
+   
+    text-align: center;
+    height: 100%;
+ 
+	height:100vh;
+	background: #4C4C4CFF; 
+	flex-grow: 1;
+}
+
+.title{
+	margin-top: 10px;
+	font-family: Tahoma;
+	font-size: 18;
+	color: #FFFFFCFF
+}
+
+.why_text{
+	margin-top: 20px;
+	font-family: Tahoma;
+	font-size: 18;
+	color: #FFFFFCFF
+}
+
+.foot {
+	width: 100%;
+	height: 160px;
+	background: #3F3F3FFF;
+
+}
+
+
+.social_row {
+	width: 93%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.social{
+	width: 40%;
+	height: 100%;
+
+}
+
+.social_ico{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: #3F3F3FFF;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: center;
+}
+}
+
+@media screen and (min-width: 1500px) and(max-width: 1600px) {
+
+.photo_me{
+	margin-left: 17px;
+	margin-top: 1px;
+	transform: scale(2,2);
+
 }
