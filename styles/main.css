@@ -177,7 +177,7 @@ footer{
 	bottom: 0;
 }
 
-@media screen (min-width: 300px) and (max-width: 350px) {
+@media only screen and (min-width: 300px) and (max-width: 350px) {
   .name{
   	font-size: 25;
   }
@@ -308,7 +308,7 @@ iframe {
 }
 }
 
-@media screen and (min-width: 351px) and (max-width:370px){
+@media only screen and (min-width: 351px) and (max-width:370px){
 .photo_me{
 	margin-left: 17px;
 	margin-top: 1px;
@@ -436,7 +436,7 @@ iframe {
 }
 }
 
-@media screen and (min-width: 370px) and (max-width: 400px) {
+@media only screen and (min-width: 370px) and (max-width: 400px) {
 
 .photo_me{
 	margin-left: 40px;
@@ -449,7 +449,7 @@ iframe {
 	margin-left: 90px;
 }
 }
-@media screen and (min-width: 401px) and (max-width: 470px) {
+@media only screen and (min-width: 401px) and (max-width: 470px) {
 .photo_me{
 	margin-left: 47px;
 	margin-top: 1px;
@@ -473,7 +473,7 @@ iframe {
 }
 }
 
-@media screen and (min-width: 471px) and (max-width: 520px) {
+@media only screen and (min-width: 471px) and (max-width: 520px) {
 
 .photo_me{
 	margin-left: 65px;
@@ -485,7 +485,7 @@ iframe {
 }
 }
 
-@media screen and (min-width: 1500px) and (max-width: 1600px) {
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
 
 .text_me{
 	font-size: 40;
