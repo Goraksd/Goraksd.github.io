@@ -177,7 +177,7 @@ footer{
 	bottom: 0;
 }
 
-@media screen and (max-width: 350px) {
+@media screen (min-width: 300px) and (max-width: 350px) {
   .name{
   	font-size: 25;
   }
@@ -308,12 +308,7 @@ iframe {
 }
 }
 
-@media screen and (min-width: 351px) and (max-width: 400px){
-
-.name{
-  	font-size: 25;
-  }
-
+@media screen and (min-width: 351px) and (max-width:370px){
 .photo_me{
 	margin-left: 17px;
 	margin-top: 1px;
@@ -321,18 +316,18 @@ iframe {
 	height: 400px;
 }
 
-  .text_me{
+.text_me{
   	font-size: 18;
   	margin-top: 45px;
   }
 
-  .game_text{
+.game_text{
   	font-size: 20;
   	margin-top: 50px;
   }
 
   
-  .games_row{
+.games_row{
 	margin-top: 250px;
 	width: 30%;
 	height: 250px;
@@ -441,11 +436,65 @@ iframe {
 }
 }
 
-@media screen and (min-width: 1500px) and(max-width: 1600px) {
+@media screen and (min-width: 370px) and (max-width: 400px) {
 
 .photo_me{
-	margin-left: 17px;
+	margin-left: 40px;
 	margin-top: 1px;
-	transform: scale(2,2);
+	width: 300px;
+	height: 400px;
+}
 
+.gameico{ 
+	margin-left: 90px;
+}
+}
+@media screen and (min-width: 401px) and (max-width: 470px) {
+.photo_me{
+	margin-left: 47px;
+	margin-top: 1px;
+	width: 300px;
+	height: 400px;
+}
+
+.gameico{ 
+	margin-left: 100px;
+}
+
+iframe {
+	width: 370px;
+	height: 300px;
+}
+
+.social{
+	width: 37%;
+	height: 100%;
+
+}
+}
+
+@media screen and (min-width: 471px) and (max-width: 520px) {
+
+.photo_me{
+	margin-left: 65px;
+	margin-top: 1px;
+}
+
+.gameico{ 
+	margin-left: 115px;
+}
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
+
+.text_me{
+	font-size: 40;
+	margin-top: 70px;
+}
+
+.photo_me{
+	margin-left: 600px;
+	margin-top: 1px;
+
+}
 }
