@@ -102,10 +102,10 @@ html{
 	color: #FFFFFCFF
 }
 
- /*.video{
-	margin-top: 50px;
+ .video{
+	margin-top: 60px;
 	max-width: 100%;
-} */
+} 
 
 iframe{
 	width: 1000;
